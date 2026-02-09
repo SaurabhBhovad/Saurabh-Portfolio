@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Bhovad | AI Engineer & Data Scientist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+        .glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+        .project-card:hover { transform: translateY(-8px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <nav class="fixed w-full z-50 glass-nav border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-2xl font-bold text-blue-600 tracking-tighter">SB.</span>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+                <a href="#certifications" class="hover:text-blue-600 transition">Certifications</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-gradient text-white pt-32 pb-20 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1 text-center md:text-left">
+                <h1 class="text-5xl md:text-6xl font-extrabold mb-4">Saurabh Bhovad</h1>
+                <p class="text-xl md:text-2xl text-blue-300 mb-8 font-light">
+                    Aspiring AI Engineer | MCA Student | Data Science Enthusiast
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                    <a href="#projects" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full font-bold transition shadow-lg shadow-blue-500/20">View My Work</a>
+                    <a href="https://github.com/SaurabhBhovad" target="_blank" class="bg-slate-700 hover:bg-slate-600 px-8 py-3 rounded-full font-bold transition">
+                        <i class="fab fa-github mr-2"></i>GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="flex-1 flex justify-center">
+                <div class="relative">
+                    <div class="absolute inset-0 bg-blue-500 rounded-full blur-3xl opacity-20 animate-pulse"></div>
+                    <img src="profile.png" alt="Saurabh Bhovad" class="relative w-72 h-72 md:w-80 md:h-80 rounded-full border-4 border-blue-500/50 object-cover shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">About Me</h2>
+            <p class="text-lg text-slate-600 leading-relaxed mb-8">
+                I am a motivated entry-level professional focused on building intelligent systems and data-driven solutions. 
+                Currently pursuing my Master of Computer Applications (MCA) at the University of Mumbai, I specialize in 
+                Data Analytics, AI, and Machine Learning.
+            </p>
+            <div class="grid md:grid-cols-2 gap-6 text-left">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-blue-600 mb-2">Education</h3>
+                    <p class="text-sm font-bold">MCA - University of Mumbai</p>
+                    <p class="text-xs text-slate-500 mb-2">2024 - Present</p>
+                    <p class="text-sm font-bold">B.Sc. Computer Science</p>
+                    <p class="text-xs text-slate-500">CGPA: 8.13 | 2021 - 2024</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-blue-600 mb-2">Core Competencies</h3>
+                    <ul class="text-sm space-y-1 text-slate-600">
+                        <li>• Machine & Deep Learning</li>
+                        <li>• Natural Language Processing</li>
+                        <li>• Data Structures & Algorithms</li>
+                        <li>• Statistical Analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 bg-slate-900 text-white px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Technical Toolkit</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center p-6 rounded-xl bg-slate-800 border border-slate-700 hover:border-blue-500 transition">
+                    <i class="fab fa-python text-4xl text-blue-400 mb-4"></i>
+                    <h3 class="font-bold">Python</h3>
+                </div>
+                <div class="text-center p-6 rounded-xl bg-slate-800 border border-slate-700 hover:border-blue-500 transition">
+                    <i class="fas fa-brain text-4xl text-purple-400 mb-4"></i>
+                    <h3 class="font-bold">ML / DL</h3>
+                </div>
+                <div class="text-center p-6 rounded-xl bg-slate-800 border border-slate-700 hover:border-blue-500 transition">
+                    <i class="fas fa-database text-4xl text-green-400 mb-4"></i>
+                    <h3 class="font-bold">SQL / NoSQL</h3>
+                </div>
+                <div class="text-center p-6 rounded-xl bg-slate-800 border border-slate-700 hover:border-blue-500 transition">
+                    <i class="fas fa-chart-line text-4xl text-orange-400 mb-4"></i>
+                    <h3 class="font-bold">Data Analytics</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-6 bg-slate-100">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-4 text-center">Projects</h2>
+            <p class="text-slate-500 text-center mb-12">Hover over a project to view it on GitHub</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <a href="https://github.com/SaurabhBhovad/AirCanvasAI" target="_blank" class="project-card group bg-white rounded-2xl shadow-md overflow-hidden border border-slate-200">
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <i class="fas fa-paint-brush text-3xl text-blue-600"></i>
+                            <i class="fab fa-github text-xl text-slate-300 group-hover:text-blue-600 transition"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition">AirCanvasAI</h3>
+                        <p class="text-slate-600 text-sm mb-6">Virtual classroom tool for real-time drawing using hand gestures and OpenCV computer vision.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-50 text-blue-600 text-xs font-bold rounded-full">Computer Vision</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/SaurabhBhovad" target="_blank" class="project-card group bg-white rounded-2xl shadow-md overflow-hidden border border-slate-200">
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <i class="fas fa-microphone text-3xl text-purple-600"></i>
+                            <i class="fab fa-github text-xl text-slate-300 group-hover:text-purple-600 transition"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-purple-600 transition">Jarvis Assistant</h3>
+                        <p class="text-slate-600 text-sm mb-6">Voice-activated AI assistant capable of performing web searches, playing music, and system automation.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-purple-50 text-purple-600 text-xs font-bold rounded-full">NLP / Python</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/SaurabhBhovad" target="_blank" class="project-card group bg-white rounded-2xl shadow-md overflow-hidden border border-slate-200">
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <i class="fas fa-qrcode text-3xl text-orange-600"></i>
+                            <i class="fab fa-github text-xl text-slate-300 group-hover:text-orange-600 transition"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-orange-600 transition">QR Generator</h3>
+                        <p class="text-slate-600 text-sm mb-6">A high-performance web-based utility for generating instant QR codes built with Python and Streamlit.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-orange-50 text-orange-600 text-xs font-bold rounded-full">Streamlit</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Certifications</h2>
+            <div class="space-y-4">
+                <div class="flex items-center gap-4 p-4 bg-white border border-slate-100 rounded-lg shadow-sm">
+                    <i class="fas fa-certificate text-blue-600"></i>
+                    <p class="font-medium text-slate-700">Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</p>
+                </div>
+                <div class="flex items-center gap-4 p-4 bg-white border border-slate-100 rounded-lg shadow-sm">
+                    <i class="fas fa-certificate text-blue-600"></i>
+                    <p class="font-medium text-slate-700">AI Concepts & Techniques (NPTEL)</p>
+                </div>
+                <div class="flex items-center gap-4 p-4 bg-white border border-slate-100 rounded-lg shadow-sm">
+                    <i class="fas fa-certificate text-blue-600"></i>
+                    <p class="font-medium text-slate-700">Data Analyst (oneroadmap)</p>
+                </div>
+                <div class="flex items-center gap-4 p-4 bg-white border border-slate-100 rounded-lg shadow-sm">
+                    <i class="fas fa-certificate text-blue-600"></i>
+                    <p class="font-medium text-slate-700">Introduction to SQL (Simplilearn)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-6 bg-white border-t border-slate-100">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Contact Me</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-slate-800">Let's Connect</h3>
+                    <p class="text-slate-600">I am open to discussions regarding AI development, data analysis, or professional collaborations. Let's build something great!</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <a href="mailto:bhovadsaurabh@gmail.com" class="hover:text-blue-600 font-medium">bhovadsaurabh@gmail.com</a>
+                        </div>
+                        
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-slate-100 text-slate-600 rounded-full flex items-center justify-center">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <a href="https://www.linkedin.com/in/saurabh-bhovad-95609a236" target="_blank" class="hover:text-blue-700 font-medium">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form action="https://formspree.io/f/mvzbgbzr" method="POST" class="space-y-4 p-8 bg-slate-50 rounded-2xl border border-slate-100">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Full Name</label>
+                        <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-200 outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Your email:</label>
+                        <input type="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-slate-200 outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Your message:</label>
+                        <textarea name="message" rows="4" required class="w-full px-4 py-3 rounded-lg border border-slate-200 outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition">
+                        Send <i class="fas fa-paper-plane ml-2"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-slate-900 text-slate-400 text-center text-sm">
+        <p>© 2026 Saurabh Bhovad. Mumbai, Maharashtra, India.</p>
+        <p class="mt-2 italic">Building the future with data and intelligence.</p>
+    </footer>
+
+</body>
+</html>
